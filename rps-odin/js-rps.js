@@ -10,7 +10,6 @@ let playerScore = 0;
 ppr.addEventListener('click', getPlayerChoice);
 rock.addEventListener('click', getPlayerChoice);
 sci.addEventListener('click', getPlayerChoice);
-// startButton.addEventListener('click', startGame)
 
 function getCompChoice() {
     let compNum =  Math.floor(Math.random() * (3) ) + 1;
