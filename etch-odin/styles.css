@@ -1,0 +1,75 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+    width: fit-content;
+    border: solid black;
+    box-shadow: 0.20em 0.20em 0.125em 0.125em rgb(207, 134, 134);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container {
+    background-color: white;
+    width: 30em;
+    height: 30em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7em;
+    box-shadow: 2em 2em 0.5em 0.5em rgb(134, 180, 207);
+    border: solid black;
+    display: grid;
+    /* grid-template-rows: auto minmax(0, 1fr) auto; */
+    /* grid-template-columns: repeat(auto-fill, minmax(30px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(30px, 1fr)); */
+    /* grid-template-columns: repeat( auto-fit, minmax(64fr, 16fr) );
+    grid-template-rows: repeat( auto-fit, minmax(64fr, 16fr) ); */
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3em;
+}
+
+#clearBtn {
+    border: solid black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    box-shadow: 0.17em 0.17em 0.125em 0.125em rgb(134, 207, 164);
+}
+
+#clearBtn:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s background-color, 0.5s color;
+}
+
+#colorPicker {
+    border: solid black;
+    padding: none;
+    box-shadow: 0.17em 0.17em 0.125em 0.125em rgb(141, 134, 207);
+}
+
+#canvasSetter {
+    -webkit-appearance: none; 
+    border: solid black;
+    box-shadow: 0.17em 0.17em 0.125em 0.125em rgb(207, 134, 185);
+}
+
+#canvasSetter::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    cursor: pointer;
+    width: 10px;
+    height: 20px;
+    background: black;
+}
+
+#sliderOutput {
+    position: absolute;
+    width: fit-content;
+    left: 61.25em;
+    top: 7.5em;
+}
