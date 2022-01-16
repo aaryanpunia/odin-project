@@ -1,0 +1,135 @@
+.header {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    background-color: black;
+    height: 32em;
+    width: 24em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.container button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    border: none;
+}
+
+#item-1 {
+    color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#item-2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#item-3 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#item-4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#item-5 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#item-6 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#item-7 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#item-8 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+#item-9 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+
+#item-10 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#item-11 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+#item-12 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+
+#item-13 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#item-14 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+#item-15 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+
+#item-16 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#item-17 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+#item-18 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+
+
+
+
+
