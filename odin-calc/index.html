@@ -9,17 +9,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="./script.js" defer></script>
 </head>
 <body>
     <h1 class="header">Calculator</h1>
-    <div class="container">
-        <span id="item-1">Result</span>
-        <button id="item-2">Clr</button>
+    <input type="hidden" id="item-1" value="0"></input>
+    <div class="container" id="container-1">
+        <button id="item-2" value="clr">Clr</button>
         <button id="item-3">Del</button>
-        <button id="item-4">+</button>
-        <button id="item-5">-</button>
-        <button id="item-6">x</button>
-        <button id="item-7">÷</button>
+        <button id="item-4" value="add">+</button>
+        <button id="item-5" value="sub">-</button>
+        <button id="item-6" value="mul">x</button>
+        <button id="item-7" value="div">÷</button>
         <button id="item-8">.</button>
         <button id="item-9">0</button>
         <button id="item-10">1</button>
@@ -31,6 +32,7 @@
         <button id="item-16">7</button>
         <button id="item-17">8</button>
         <button id="item-18">9</button>
+        <button id="item-19" value="eql">=</button>
     </div>
 </body>
 </html>

@@ -10,9 +10,9 @@
     width: 24em;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5em;
+    margin-top: 12em;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .container button {
@@ -21,57 +21,84 @@
     border: none;
 }
 
+.container button:hover {
+    background-color: gray;
+    color: white;
+}
+
+.container button:active {
+    color: black;
+}
+
+.container button:focus {
+    border: none;
+    outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
 #item-1 {
-    color: antiquewhite;
+    position: absolute;
+    display: block;
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 11.8em;
+    height: 2em;
     font-family: 'Montserrat', sans-serif;
-    font-size: x-large;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    grid-column-start: 1;
-    grid-column-end: 7;
-    grid-row-start: 1;
-    grid-row-end: 2;
+    font-size: 2em;
+    text-align: center;  
+    border: none;  
 }
 
 #item-2 {
     grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 
 #item-3 {
-    grid-column-start: 4;
-    grid-column-end: 7;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 
 #item-4 {
     grid-column-start: 1;
     grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 
 #item-5 {
     grid-column-start: 3;
     grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 
 #item-6 {
     grid-column-start: 5;
     grid-column-end: 7;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 
 #item-7 {
     grid-column-start: 1;
     grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
 
 #item-8 {
@@ -129,7 +156,12 @@
     grid-column-end: 7;
 }
 
-
+#item-19 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
 
 
 
