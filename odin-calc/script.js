@@ -100,7 +100,6 @@ function keepOp() {
         chain.push(new numObj(parseFloat(globalNum.value), operation));
         document.getElementById('item-1').value = '';
     }
-    console.log(chain);
 }
 
 function operate() {
@@ -194,3 +193,4 @@ window.addEventListener('keydown', (delKey) => {
         operate();
     }
 });
+
