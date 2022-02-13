@@ -1,0 +1,91 @@
+:root {
+    --blueish: #eb8714;
+    --bcColor: #eb8714;
+    --gridBg: #ef9f43;
+}
+
+#header {
+    text-align: center;
+    font-family: 'Shizuru', cursive;
+}
+
+body {
+    background-color: var(--bcColor);
+}
+
+#container {
+    background-color: var(--bcColor);
+    width: 25em;
+    height: 25em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#container button {
+    font-size: 2em;   
+    background-color: var(--gridBg);
+}
+
+#r1c1 {
+    border-right: solid var(--blueish);
+    border-bottom: solid var(--blueish);
+    border-top: none;
+    border-left: none;
+}
+
+#r1c2 {
+    border-top: none;
+    border-right: solid var(--blueish);
+    border-bottom: solid var(--blueish);
+    border-left: solid var(--blueish);
+}
+
+#r1c3 {
+    border-left: solid var(--blueish);
+    border-bottom: solid var(--blueish);
+    border-right: none;
+    border-top: none;
+}
+
+#r2c1 {
+    border-top: solid var(--blueish);
+    border-bottom: solid var(--blueish);
+    border-right: solid var(--blueish);
+    border-left: none;
+}
+
+#r2c2 {
+    border: solid var(--blueish);
+}
+
+#r2c3 {
+    border-top: solid var(--blueish);
+    border-bottom: solid var(--blueish);
+    border-left: solid var(--blueish);
+    border-right: none;
+}
+
+#r3c1 {
+    border-top: solid var(--blueish);
+    border-right: solid var(--blueish);
+    border-bottom: none;
+    border-left: none;
+}
+
+#r3c2 {
+    border-top: solid var(--blueish);
+    border-left: solid var(--blueish);
+    border-right: solid var(--blueish);
+    border-bottom: none;
+}
+
+#r3c3 {
+    border-top: solid var(--blueish);
+    border-left: solid var(--blueish);
+    border-bottom: none;
+    border-right: none;
+}
